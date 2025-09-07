@@ -11,7 +11,7 @@ jobs:
       - checkout
 
       - browser-tools/install-chrome:
-          chrome-version: 120.0.6099.199
+          chrome-version: 120.0.6099.216
 
       - run:
           name: Build with Maven
