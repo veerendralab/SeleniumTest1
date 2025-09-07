@@ -6,21 +6,20 @@ orbs:
 jobs:
   seleniumtest1:
     docker:
-      - image: cimg/openjdk:11.0-browsers  # Includes Chrome & Chromedriver
+      - image: cimg/openjdk:11.0-browsers
     steps:
       - checkout
 
       - browser-tools/install-chrome:
           chrome-version: 120.0.6099.199
-      - browser-tools/install-chromedriver: # Ensures latest Chrome & drivers
-          chrome-driver-version: 120.0.6099.199
+
       - run:
           name: Build with Maven
           command: mvn clean compile
 
       - run:
           name: Run Selenium tests from XML
-          command: mvn test -DsuiteXmlFile=testng.xml  # Replace with your XML file name
+          command: mvn test -DsuiteXmlFile=testng.xml
 
 workflows:
   version: 2
