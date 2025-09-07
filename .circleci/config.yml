@@ -10,8 +10,8 @@ jobs:
     steps:
       - checkout
 
-      - browser-tools/install-Chrome
-      - browser-tools/install-Chromedriver # Ensures latest Chrome & drivers
+      - browser-tools/install-chrome
+      - browser-tools/install-chromedriver # Ensures latest Chrome & drivers
 
       - run:
           name: Build with Maven
