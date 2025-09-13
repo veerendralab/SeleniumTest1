@@ -6,7 +6,7 @@ orbs:
 jobs:
   seleniumtest1:
     docker:
-      - image: cimg/openjdk:11.0
+      - image: cimg/openjdk:11.0.22-browsers
     steps:
       - checkout
 
