@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-06T14:15:42Z" name="Suite" finished-at="2025-09-06T14:16:11Z" duration-ms="28976">
+  <suite started-at="2025-09-13T06:33:34Z" name="Default suite" finished-at="2025-09-13T06:34:51Z" duration-ms="77642">
     <groups>
     </groups>
-    <test started-at="2025-09-06T14:15:42Z" name="FirstTest" finished-at="2025-09-06T14:16:11Z" duration-ms="28976">
+    <test started-at="2025-09-13T06:33:34Z" name="Default test" finished-at="2025-09-13T06:34:51Z" duration-ms="77642">
       <class name="com.testselenium.FirstTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testselenium.FirstTest@2812b107]" started-at="2025-09-06T19:45:42Z" name="setup" finished-at="2025-09-06T19:46:03Z" duration-ms="20972" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testselenium.FirstTest@2812b107]" started-at="2025-09-13T12:03:34Z" name="setup" finished-at="2025-09-13T12:03:42Z" duration-ms="8425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:0, instance:com.testselenium.FirstTest@2812b107]" started-at="2025-09-06T19:46:03Z" name="testLogin" finished-at="2025-09-06T19:46:10Z" duration-ms="6849" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:com.testselenium.FirstTest@2812b107]" started-at="2025-09-13T12:03:42Z" name="testLogin" finished-at="2025-09-13T12:04:50Z" duration-ms="67286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testselenium.FirstTest@2812b107]" started-at="2025-09-06T19:46:10Z" name="tearDown" finished-at="2025-09-06T19:46:11Z" duration-ms="1118" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testselenium.FirstTest@2812b107]" started-at="2025-09-13T12:04:50Z" name="tearDown" finished-at="2025-09-13T12:04:51Z" duration-ms="1887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testselenium.FirstTest -->
-    </test> <!-- FirstTest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
